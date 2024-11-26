@@ -10801,3 +10801,703 @@
 [241126-150710] INFO: Window Created.
 [241126-150710] INFO: Searching for available video devices...
 [241126-150711] INFO: Closing SETUP Window...
+[241126-153354] INFO: Creating Defaults...
+[241126-153354] INFO: Defaults Created.
+[241126-153354] INFO: Creating Window...
+[241126-153354] INFO: Window Created.
+[241126-153354] INFO: Searching for available video devices...
+[241126-153406] INFO: Found 1 video devices:
+[241126-153406] INFO: Starting Single Camera Loop
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153406] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153407] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153408] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153409] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153410] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153411] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153412] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153413] INFO: Single Camera Loop else
+[241126-153414] INFO: Single Camera Loop else
+[241126-153414] INFO: Closing SETUP Window...
+[241126-154413] INFO: Creating Defaults...
+[241126-154413] INFO: Defaults Created.
+[241126-154413] INFO: Creating Window...
+[241126-154429] INFO: Creating Defaults...
+[241126-154429] INFO: Defaults Created.
+[241126-154429] INFO: Creating Window...
+[241126-154429] INFO: Window Created.
+[241126-154429] INFO: Searching for available video devices...
+[241126-154431] INFO: on_camera_displayed_change: NONE
+[241126-154432] INFO: Closing SETUP Window...
+[241126-154456] INFO: Creating Defaults...
+[241126-154456] INFO: Defaults Created.
+[241126-154456] INFO: Creating Window...
+[241126-154749] INFO: Creating Defaults...
+[241126-154749] INFO: Defaults Created.
+[241126-154749] INFO: Creating Window...
+[241126-154848] INFO: Creating Defaults...
+[241126-154848] INFO: Defaults Created.
+[241126-154848] INFO: Creating Window...
+[241126-154859] INFO: Creating Defaults...
+[241126-154859] INFO: Defaults Created.
+[241126-154859] INFO: Creating Window...
+[241126-154917] INFO: Creating Defaults...
+[241126-154917] INFO: Defaults Created.
+[241126-154917] INFO: Creating Window...
+[241126-154917] INFO: Window Created.
+[241126-154917] INFO: Searching for available video devices...
+[241126-154928] INFO: Found 1 video devices:
+[241126-155046] INFO: Creating Defaults...
+[241126-155046] INFO: Defaults Created.
+[241126-155046] INFO: Creating Window...
+[241126-155046] INFO: Window Created.
+[241126-155046] INFO: Searching for available video devices...
+[241126-155058] INFO: Found 1 video devices:
+[241126-155335] INFO: Creating Defaults...
+[241126-155335] INFO: Defaults Created.
+[241126-155335] INFO: Creating Window...
+[241126-155335] INFO: Window Created.
+[241126-155335] INFO: Searching for available video devices...
+[241126-155355] INFO: Closing SETUP Window...
+[241126-155432] INFO: Creating Defaults...
+[241126-155432] INFO: Defaults Created.
+[241126-155432] INFO: Creating Window...
+[241126-155432] INFO: Window Created.
+[241126-155432] INFO: Searching for available video devices...
+[241126-155444] INFO: on_camera_displayed_change: NONE
+[241126-155517] INFO: Creating Defaults...
+[241126-155517] INFO: Defaults Created.
+[241126-155517] INFO: Creating Window...
+[241126-155517] INFO: Window Created.
+[241126-155517] INFO: Searching for available video devices...
+[241126-155529] INFO: on_camera_displayed_change: NONE
+[241126-155914] INFO: Creating Defaults...
+[241126-155914] INFO: Defaults Created.
+[241126-155914] INFO: Creating Window...
+[241126-155914] INFO: Window Created.
+[241126-155914] INFO: Searching for available video devices...
+[241126-155926] INFO: new camera option: PY_VAR2
+[241126-155926] INFO: on_camera_displayed_change: NONE
+[241126-155933] INFO: Closing SETUP Window...
+[241126-155955] INFO: Creating Defaults...
+[241126-155955] INFO: Defaults Created.
+[241126-155955] INFO: Creating Window...
+[241126-155955] INFO: Window Created.
+[241126-155955] INFO: Searching for available video devices...
+[241126-160007] INFO: new camera option: NONE
+[241126-160007] INFO: on_camera_displayed_change: NONE
+[241126-160011] INFO: Closing SETUP Window...
+[241126-160025] INFO: Creating Defaults...
+[241126-160025] INFO: Defaults Created.
+[241126-160025] INFO: Creating Window...
+[241126-160025] INFO: Window Created.
+[241126-160025] INFO: Searching for available video devices...
+[241126-160037] INFO: new camera option: NONE
+[241126-160037] INFO: on_camera_displayed_change: NONE
+[241126-160041] INFO: Closing SETUP Window...
+[241126-160113] INFO: Creating Defaults...
+[241126-160113] INFO: Defaults Created.
+[241126-160113] INFO: Creating Window...
+[241126-160113] INFO: Window Created.
+[241126-160113] INFO: Searching for available video devices...
+[241126-160305] INFO: Creating Defaults...
+[241126-160305] INFO: Defaults Created.
+[241126-160305] INFO: Creating Window...
+[241126-160305] INFO: Window Created.
+[241126-160305] INFO: Searching for available video devices...
+[241126-160317] INFO: on_camera_displayed_change: 0
+[241126-160317] INFO: Starting Single Camera Loop
+[241126-160317] INFO: Found 1 video devices:
+[241126-160317] INFO: Starting Single Camera Loop
+[241126-160331] INFO: on_camera_displayed_change: 0
+[241126-160331] INFO: Starting Single Camera Loop
+[241126-160335] INFO: Closing SETUP Window...
+[241126-160618] INFO: Creating Defaults...
+[241126-160618] INFO: Defaults Created.
+[241126-160618] INFO: Creating Window...
+[241126-160618] INFO: Window Created.
+[241126-160618] INFO: Searching for available video devices...
+[241126-160630] INFO: Found 1 video devices:
+[241126-160738] INFO: Creating Defaults...
+[241126-160738] INFO: Defaults Created.
+[241126-160738] INFO: Creating Window...
+[241126-160739] INFO: Window Created.
+[241126-160739] INFO: Searching for available video devices...
+[241126-160750] INFO: change_camera_displayed: 0
+[241126-160750] INFO: Found 1 video devices:
+[241126-160757] INFO: Closing SETUP Window...
+[241126-161137] INFO: Creating Defaults...
+[241126-161137] INFO: Defaults Created.
+[241126-161137] INFO: Creating Window...
+[241126-161137] INFO: Window Created.
+[241126-161137] INFO: Searching for available video devices...
+[241126-161149] INFO: Found 1 video devices:
+[241126-161149] INFO: change_camera_displayed: 0
+[241126-161202] INFO: Closing SETUP Window...
+[241126-161305] INFO: Creating Defaults...
+[241126-161305] INFO: Defaults Created.
+[241126-161305] INFO: Creating Window...
+[241126-161305] INFO: Window Created.
+[241126-161305] INFO: Searching for available video devices...
+[241126-161317] INFO: Found 1 video devices:
+[241126-161317] INFO: change_camera_displayed: 0
+[241126-161317] INFO: on_camera_displayed_change: 0
+[241126-161317] INFO: Starting Single Camera Loop
+[241126-161317] INFO: Starting Single Camera Loop
+[241126-161317] INFO: Single Camera Loop else
+[241126-161317] INFO: Single Camera Loop else
+[241126-161317] INFO: Single Camera Loop else
+[241126-161317] INFO: Single Camera Loop else
+[241126-161317] INFO: Single Camera Loop else
+[241126-161317] INFO: Single Camera Loop else
+[241126-161317] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161318] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161319] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161320] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161321] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161322] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161323] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161324] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161325] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161326] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161327] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161328] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161329] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161330] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161331] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Single Camera Loop else
+[241126-161332] INFO: Closing SETUP Window...
+[241126-161839] INFO: Creating Defaults...
+[241126-161839] INFO: Defaults Created.
+[241126-161839] INFO: Creating Window...
+[241126-161839] INFO: Window Created.
+[241126-161839] INFO: Searching for available video devices...
+[241126-161851] INFO: Found 1 video devices:
+[241126-161851] INFO: ELIO: trying Converting selected index
+[241126-161851] INFO: Starting Single Camera Loop
+[241126-161851] INFO: Single Camera Loop else
+[241126-161851] INFO: Single Camera Loop else
+[241126-161851] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161852] INFO: Single Camera Loop else
+[241126-161853] INFO: Single Camera Loop else
+[241126-161853] INFO: Single Camera Loop else
+[241126-161853] INFO: Single Camera Loop else
+[241126-161853] INFO: Single Camera Loop else
+[241126-161853] INFO: Single Camera Loop else
+[241126-161853] INFO: Closing SETUP Window...
+[241126-161853] INFO: Single Camera Loop else

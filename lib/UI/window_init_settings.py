@@ -21,6 +21,10 @@ from typing import List
 import lib.paol_utils as utils
 import lib.camera_utils.Camera as Camera
 
+NO_SELECTION = {
+    'NONE':0
+}
+
 SELECTIONS = {
     'NOT_SET':0,
     'DISABLED':1,
@@ -38,18 +42,8 @@ class SettingScreen(ctk.CTk):
         super().__init__()
 
         utils.log('INFO', 'Creating Defaults...')
-
-        #Old Camera Settings
-        self.caps = []
-        self.frames = []
-        self.res = self.get_res()
-        self.threads = []
-        self.stop_event = None
-        self.devices = []
-        self.count = 0
-        self.video_panels = []
-        self.video_panel_names = []
-        self.type_vars = []
+        # Defaults
+        self.wm_protocol("WM_DELETE_WINDOW", self.on_close)
 
         #New Camera Settings
         self.cameras = [] #Camera Array
@@ -63,7 +57,7 @@ class SettingScreen(ctk.CTk):
         utils.log('INFO', 'Creating Window...')
 
         # Window Config
-        self.title("Param1")
+        self.title("Settings")
         self.geometry(f"{600}x{400}")
 
         # Grid Config
@@ -78,10 +72,12 @@ class SettingScreen(ctk.CTk):
 
         utils.log('INFO', 'Window Created.')
         utils.log('INFO', 'Searching for available video devices...')
+
         # Run Camera Connections on a separate thread
         cameras_thread = threading.Thread(target=self.init_cameras)
         cameras_thread.start()
 
+    #SCREEN BUILDING FUNCTIONS =========================================
     def init_sidebar(self):
         self.sidebar_frame = ctk.CTkFrame(self, width=140, corner_radius=0)
         self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
@@ -120,13 +116,15 @@ class SettingScreen(ctk.CTk):
         self.camera_options_title.grid(row=0, column=0)
         self.camera_options_title.grid_columnconfigure(0, weight=1)
 
-        self.camera_options_var_selected = ctk.IntVar(value=0)
-        self.camera_options_var = ctk.IntVar(value=0)
-        self.camera_options = ctk.CTkOptionMenu(self.subframe, values=["ELIO"],
+        self.camera_options_var_selected = [*NO_SELECTION][0] #str
+        self.camera_options_var = ctk.StringVar(value=[*NO_SELECTION][0])
+        self.camera_options = ctk.CTkOptionMenu(self.subframe, values=[*NO_SELECTION],
                                                 command=self.on_camera_displayed_change,
                                                 variable=self.camera_options_var)
         self.camera_options.grid(row=0, column=1)
         self.camera_options.grid_columnconfigure(1, weight=1)
+
+        #TODO: Add Selection option for THIS camera - so likely add it to Camera()
 
         self.init_camera_display()
         
@@ -135,6 +133,7 @@ class SettingScreen(ctk.CTk):
         self.camera_display.image = self.display_image
         self.camera_display.grid(row=1, column=0, columnspan=8, pady=20)
 
+    #CAMERA FUNCTIONS =========================================
     def init_cameras(self):
         # Clear previous Data
         self.options_display_camera_names.clear()
@@ -143,30 +142,36 @@ class SettingScreen(ctk.CTk):
         self.collect_cameras()
         sorted(self.cameras, key=lambda camera: camera.Index)
 
+        utils.log('INFO', 'Found ' + str(len(self.cameras)) + ' video devices:')
+        
+        self.update_camera_options()
+        self.start_camera_display()
+
+    def update_camera_options(self):
         # Get Names for OptionMenu
         for i in range(len(self.cameras)):
             self.options_display_camera_names.append(str(self.cameras[i].Index))
 
         # Update OptionMenu
         self.camera_options.configure(True, values=self.options_display_camera_names)
-
-        utils.log('INFO', 'Found ' + str(len(self.cameras)) + ' video devices:')
-        
-        #self.start_cameras()
-        self.start_camera_display()
+        self.set_camera_displayed(self.options_display_camera_names[0])
 
     def start_camera_display(self):
         # Create Event to stop thread
         self.display_camera_thread_stop_event = threading.Event()
         
         # Get the current selected index of Camera
-        selected_index = self.camera_options_var_selected.get()
-        if len(self.cameras) > 0 and len(self.cameras) > self.camera_options_var_selected.get():
+        try:
+            selected_index = int(self.camera_options_var_selected)
+        except ValueError:
+            selected_index = 0
+
+        if len(self.cameras) > 0 and len(self.cameras) > selected_index:
             selected_camera = self.cameras[selected_index]
             selected_camera.Frames.append(None)
             
             # Start camera thread
-            self.display_camera_thread = threading.Thread(target=self.single_camera_video_loop, args=(self.camera_options_var_selected.get(),))
+            self.display_camera_thread = threading.Thread(target=self.single_camera_video_loop, args=(selected_index,))
             self.display_camera_thread.start()
 
     def update_camera_display(self):
@@ -184,13 +189,13 @@ class SettingScreen(ctk.CTk):
                 self.cameras.append(new_camera)
     
     def single_camera_video_loop(self, *args):
-        utils.log('INFO', 'Starting Single Camera Loop')
         f = open("./logs/gui_err.log", "w+")
         sto = sys.stderr
         sys.stderr = f
         i = args[0]
 
-        camera = self.cameras[self.camera_options_var_selected.get()]
+        selected_index = int(self.camera_options_var_selected)
+        camera = self.cameras[selected_index]
         if(camera is None):
             utils.log('INFO', 'Camera Not Valid')
             pass
@@ -216,14 +221,12 @@ class SettingScreen(ctk.CTk):
 
                 # if the panel is not None, we need to initialize it
                 if self.camera_display is None:
-                    utils.log('INFO', 'Single Camera Loop if')
                     self.camera_display = Label(self.subframe, image=self.display_image)
                     self.camera_display.image = self.display_image
                     self.camera_display.grid(row=1, column=0)
 
                 # otherwise, simply update the panel
                 else:
-                    utils.log('INFO', 'Single Camera Loop else')
                     self.camera_display.configure(image=self.display_image)
                     self.camera_display.image = self.display_image
             exit
@@ -231,17 +234,7 @@ class SettingScreen(ctk.CTk):
             utils.log('WARN', 'RuntimeError on GUI.')
             utils.log('INFO', 'Check logs/gui_err.log for details.')
 
-    def on_close(self):
-        utils.log('INFO', 'Closing SETUP Window...')
-
-        if self.display_camera_thread_stop_event is not None:
-            self.display_camera_thread_stop_event.set()
-
-        self.quit()
-        self.destroy()
-        sys.exit()
-
-    #UTIL FUNCTIONS
+    #UTIL FUNCTIONS =========================================
     def get_res(self):
         if platform.system() == "Linux":
             output = subprocess.Popen('xrandr | grep \* | cut -d" " -f4',shell=True, stdout=subprocess.PIPE).communicate()[0]
@@ -255,10 +248,24 @@ class SettingScreen(ctk.CTk):
         self.optionmenu_var.set(new_appearance_mode)
         ctk.set_appearance_mode(self.optionmenu_var.get())
 
-    def on_camera_displayed_change(self, new_display_index: int):
-        utils.log('INFO', 'on_camera_displayed_change: ' + str(new_display_index))
+    def set_camera_displayed(self, new_display_index:str):
+        self.camera_options_var.set(new_display_index)
+        self.camera_options_var_selected = new_display_index
+
+    def on_camera_displayed_change(self, new_display_index:str):
         self.camera_options_var_selected = new_display_index
         self.update_camera_display()
+
+    #GENERAL WINDOW FUNCTIONS =========================================
+    def on_close(self):
+        utils.log('INFO', 'Closing SETUP Window...')
+
+        if self.display_camera_thread_stop_event is not None:
+            self.display_camera_thread_stop_event.set()
+
+        self.quit()
+        self.destroy()
+        sys.exit()
 
 # ==========================================================================================
 
