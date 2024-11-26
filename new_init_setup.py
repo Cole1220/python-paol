@@ -6,10 +6,13 @@ init_setup.py:
     Only works under Ubuntu Python 3
 '''
 
+import sys
 import os
 os.environ["OPENCV_LOG_LEVEL"] = "debug" # value must be a string
 os.environ["OPENCV_VIDEOIO_DEBUG"] = "1" # value must be a string
 #import cv2 # variables set after this may not have effect
+
+import platform
 
 from PIL import Image as Im
 from PIL import ImageTk
@@ -36,29 +39,17 @@ SELECTIONS = {
     'COMPUTER':5,
 }
 
-
 class SetupGUI:
     def __init__(self):
         # Get available video devices
         utils.log('INFO', 'Searching for available video devices...')
 
-        found_cameras = self.find_cameras()
-        utils.log('ELIO', found_cameras)
-
-
-
-        #dev_list = os.listdir('/dev')
-        dev_list = found_cameras
-        #video_devices = [s for s in dev_list if "video" in s]
-        video_devices = dev_list
+        video_devices = self.find_cameras()
         video_devices.sort()
         self.devices = video_devices
         utils.log('INFO', 'Found ' + str(len(video_devices)) + ' video devices:')
-        #for item in video_devices:
-        #    utils.log('INFO', ' ' + item)
 
         self.count = len(video_devices)
-        #self.count = 0
         self.caps = []
         self.frames = []
         self.threads = []
@@ -86,11 +77,19 @@ class SetupGUI:
             self.type_vars[i].set('NOT_SET')
             self.type_vars[i].trace('w', self.type_selected)
 
-            self.setup_menus.append(OptionMenu(self.mainframe, self.type_vars[i], *SELECTIONS))
+            appending_menu = OptionMenu(self.mainframe, self.type_vars[i], *SELECTIONS)
+            self.setup_menus.append(appending_menu)
 
-        # Grid widgets
-        for c in range(len(video_devices)):
-            self.setup_menus[c].grid(row=1, column=c)
+            appending_menu.grid(row=1, column=i)
+
+        #Attempt at understanding UI
+        run_capture_button_vars = StringVar()
+        run_capture_button_vars.set('START CAPTURE')
+        self.type_vars.append(run_capture_button_vars)
+
+        run_capture_button = Button(self.mainframe, text = 'Start Capture')
+        self.setup_menus.append(run_capture_button)
+        run_capture_button.grid(row=2, column=1)
 
         # Start threads constantly pulling image from all video devices
         self.stop_event = threading.Event()
@@ -105,30 +104,19 @@ class SetupGUI:
         cameras = []
         for i in range(10):  # Check up to 10 cameras
             cap = cv2.VideoCapture(i)
-            #if cap.isOpened():
-            if cap is not None:
+            if cap.isOpened():
                 cameras.append(i)
-                cap.release()
-        return cameras
-    
-    def collect_cameras(self):
-    #Finds available cameras and returns a list of their indices.
-        cameras = []
-        for i in range(10):  # Check up to 10 cameras
-            cap = cv2.VideoCapture(i)
-            #if cap.isOpened():
-            if cap is not None:
-                cameras.append(cap)
                 cap.release()
         return cameras
 
     def get_res(self):
-        #output = subprocess.Popen('xrandr | grep \* | cut -d" " -f4',shell=True, stdout=subprocess.PIPE).communicate()[0]
-        #resolution = output.split()[0].split(b'x')
-        #utils.log('INFO', 'Resolution: ' + str(int(resolution[0])) + 'x' + str(int(resolution[1])))
-        #return int(resolution[0]), int(resolution[1])
-        return int(1920), int(1080)
-
+        if platform.system() == "Linux":
+            output = subprocess.Popen('xrandr | grep \* | cut -d" " -f4',shell=True, stdout=subprocess.PIPE).communicate()[0]
+            resolution = output.split()[0].split(b'x')
+            utils.log('INFO', 'Resolution: ' + str(int(resolution[0])) + 'x' + str(int(resolution[1])))
+            return int(resolution[0]), int(resolution[1])
+        if platform.system() == "Windows":
+            return int(1920), int(1080) #TODO: Replace when working
 
     def type_selected(self, *args):
         utils.log('INFO', 'Config updated:')
@@ -182,9 +170,9 @@ class SetupGUI:
         utils.log('INFO', 'Closing SETUP Window...')
         self.stop_event.set()
         self.root.quit()
-        # for c in self.caps:
-        #     c.release()
-
+        self.root.destroy()
+        
+        sys.exit()
 
 def main():
     sg = SetupGUI()

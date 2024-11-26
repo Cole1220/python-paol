@@ -4,7 +4,9 @@
 imgutils.py:
     Helper functions for Opencv
 '''
-from skimage.measure import compare_ssim
+
+#from skimage.measure import compare_ssim #version 0.16 changed name to structural_similarity
+from skimage import measure
 import imutils
 import cv2
 
@@ -17,7 +19,8 @@ def im_diff(imageA, imageB):
     grayA = cv2.cvtColor(imageA, cv2.COLOR_BGR2GRAY)
     grayB = cv2.cvtColor(imageB, cv2.COLOR_BGR2GRAY)
 
-    (score, diff) = compare_ssim(grayA, grayB, full=True)
+    #(score, diff) = compare_ssim(grayA, grayB, full=True)
+    (score, diff) = measure.structural_similarity(grayA, grayB, full=True)
     diff = (diff * 255).astype("uint8")
     # utils.log('INFO', "SSIM: {}".format(score))
     return score
